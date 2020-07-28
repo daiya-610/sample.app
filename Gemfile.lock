@@ -102,7 +102,7 @@ GEM
     guard-minitest (2.4.6)
       guard-compat (~> 1.2)
       minitest (>= 3.0)
-    i18n (1.8.3)
+    i18n (1.8.5)
       concurrent-ruby (~> 1.0)
     jbuilder (2.9.1)
       activesupport (>= 4.2.0)
@@ -218,9 +218,6 @@ GEM
     thor (1.0.1)
     thread_safe (0.3.6)
     tilt (2.0.10)
-    turbolinks (5.2.0)
-      turbolinks-source (~> 5.2)
-    turbolinks-source (5.2.0)
     tzinfo (1.2.7)
       thread_safe (~> 0.1)
     tzinfo-data (1.2020.1)
@@ -243,7 +240,7 @@ GEM
     websocket-extensions (0.1.5)
     xpath (3.2.0)
       nokogiri (~> 1.8)
-    zeitwerk (2.3.1)
+    zeitwerk (2.4.0)
 
 PLATFORMS
   x64-mingw32
@@ -269,11 +266,10 @@ DEPENDENCIES
   spring (= 2.1.0)
   spring-watcher-listen (= 2.0.1)
   sqlite3 (= 1.4.1)
-  turbolinks (= 5.2.0)
   tzinfo-data
   web-console (= 4.0.1)
   webdrivers (= 4.1.2)
   webpacker (= 4.0.7)
 
 BUNDLED WITH
-   2.1.4
+   1.17.3
